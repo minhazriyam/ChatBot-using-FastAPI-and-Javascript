@@ -35,7 +35,7 @@ minhaz-chatbot/
 ├── .gitignore                 # Ignore env, venv, pycache, etc.
 ├── README.md                  # Project documentation
 └── LICENSE       
-```bash
+```
 
 ---
 

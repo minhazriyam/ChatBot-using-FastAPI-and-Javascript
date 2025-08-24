@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minhaz's ChatBot — Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Web-app stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- App Shell -->
+    <div class="app">
+      <!-- Top bar -->
+      <header class="topbar">
+        <div class="brand">
+          <img src="logo.jpg" alt="ChatBot Logo" class="bot-header-logo" />
+          <h1>Minhaz's Bot</h1>
+        </div>
+
+        <div class="topbar-actions">
+          <button id="clearBtn" title="Clear chat">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- Content area -->
+      <main class="content">
+        <!-- Chat panel -->
+        <section class="chat-panel">
+          <!-- Messages go here -->
+          <div id="chatbox" class="chatbox" aria-live="polite"></div>
+
+          <!-- Composer -->
+          <div class="input-area">
+            <input
+              id="inputMessage"
+              type="text"
+              placeholder="Type a message…"
+              autocomplete="off"
+              aria-label="Message input"
+            />
+            <button id="sendBtn" title="Send">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Your existing logic -->
+    <script src="script.js"></script>
+  </body>
+</html>

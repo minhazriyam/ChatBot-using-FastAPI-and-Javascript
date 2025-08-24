@@ -18,18 +18,23 @@ The frontend is a sleek neon-glass styled chat interface built with vanilla **HT
 
 ## 📂 Project Structure
 
-.
-├── backend/
-│ └── main.py # FastAPI app serving /chat endpoint
+minhaz-chatbot/
+├── backend/                   # FastAPI backend
+│   ├── main.py                # FastAPI app (chat endpoint, Groq integration)
+│   ├── requirements.txt       # Python dependencies
+│   ├── .env                   # Environment variables (GROQ_API_KEY)
+│   └── __init__.py            # (optional, if you want backend as a package)
 │
-├── frontend/
-│ ├── index.html # Chat UI
-│ ├── style.css # Neon-glass styling
-│ └── script.js # Chat logic (send, append, clear)
+├── frontend/                  # Web client (static files)
+│   ├── index.html             # Chat UI
+│   ├── style.css              # Neon-glass chat styling
+│   ├── script.js              # Chat logic (send, append, clear)
+│   └── assets/                # Images, icons, etc.
+│       └── logo.jpg
 │
-├── .env # Environment variables (GROQ_API_KEY)
-└── README.md
-.
+├── .gitignore                 # Ignore env, venv, pycache, etc.
+├── README.md                  # Project documentation
+└── LICENSE       
 
 
 ---

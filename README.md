@@ -29,8 +29,8 @@ minhaz-chatbot/
 │   ├── index.html             # Chat UI
 │   ├── style.css              # Neon-glass chat styling
 │   ├── script.js              # Chat logic (send, append, clear)
-│   └── assets/                # Images, icons, etc.
-│       └── logo.jpg
+│   └── logo.jpg               # Logo
+│       
 │
 ├── .gitignore                 # Ignore env, venv, pycache, etc.
 ├── README.md                  # Project documentation

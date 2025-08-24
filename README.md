@@ -23,7 +23,7 @@ minhaz-chatbot/
 │   ├── main.py                # FastAPI app (chat endpoint, Groq integration)
 │   ├── requirements.txt       # Python dependencies
 │   ├── .env                   # Environment variables (GROQ_API_KEY)
-│   └── __init__.py            # (optional, if you want backend as a package)
+│
 │
 ├── frontend/                  # Web client (static files)
 │   ├── index.html             # Chat UI
@@ -31,7 +31,7 @@ minhaz-chatbot/
 │   ├── script.js              # Chat logic (send, append, clear)
 │   └── logo.jpg               # Logo
 │       
-│
+├── Ui.png    
 ├── .gitignore                 # Ignore env, venv, pycache, etc.
 ├── README.md                  # Project documentation
 └── LICENSE       

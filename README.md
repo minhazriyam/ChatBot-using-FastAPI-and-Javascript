@@ -85,10 +85,8 @@ It will send requests to the FastAPI backend on http://127.0.0.1:8000/chat.
 ## Preview
 
 
-## Customization
-* **Watermark Logo**: Adjust watermark size & opacity in style.css under .chatbox::before.
-* **Bot Avatar**: Controlled in script.js (class bot-chat-logo). Can be disabled or resized via CSS.
-* **Model**: Change model in main.py (model="llama-3.3-70b-versatile").
+![Chat UI Screenshot](Ui.png)
+
 
 ## License
 MIT License — feel free to use, modify, and share.

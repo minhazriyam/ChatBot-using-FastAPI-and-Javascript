@@ -17,7 +17,7 @@ The frontend is a sleek neon-glass styled chat interface built with vanilla **HT
 ---
 
 ## 📂 Project Structure
-
+```bash
 minhaz-chatbot/
 ├── backend/                   # FastAPI backend
 │   ├── main.py                # FastAPI app (chat endpoint, Groq integration)
@@ -35,7 +35,7 @@ minhaz-chatbot/
 ├── .gitignore                 # Ignore env, venv, pycache, etc.
 ├── README.md                  # Project documentation
 └── LICENSE       
-
+```bash
 
 ---
 

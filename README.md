@@ -1,4 +1,4 @@
-# 🤖 Minhaz's ChatBot
+# AI Chatbot
 
 A simple yet professional **chatbot web app** powered by **FastAPI** on the backend and **Groq’s Llama 3.3** model for responses.  
 The frontend is a sleek neon-glass styled chat interface built with vanilla **HTML, CSS, and JavaScript**.
@@ -43,8 +43,7 @@ minhaz-chatbot/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/minhaz-chatbot.git
-cd minhaz-chatbot
+git clone https://github.com/minhazriyam/ChatBot-using-FastAPI-and-Javascript.git
 ```
 
 ### 2. Backend (FastAPI)
